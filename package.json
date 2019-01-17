@@ -1,0 +1,29 @@
+{
+  "name": "twitch-api",
+  "version": "1.0.0",
+  "description": "Experimenting with the Twitch API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "handlebars": "^4.0.6",
+    "passport": "^0.3.2",
+    "passport-oauth": "^1.0.0",
+    "request": "^2.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobsirl/Twitch-API.git"
+  },
+  "keywords": [],
+  "author": "Paul Tobin <tobster111@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobsirl/Twitch-API/issues"
+  },
+  "homepage": "https://github.com/tobsirl/Twitch-API#readme"
+}
